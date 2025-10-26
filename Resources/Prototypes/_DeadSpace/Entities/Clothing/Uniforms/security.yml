@@ -78,7 +78,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtPencilSec
-  name: женский костюм-карандаш начальника милиции
+  name: женский костюм-карандаш СГМ
   description: Костюм из прочного материала, обеспечивающий надёжную защиту.
   components:
   - type: Sprite

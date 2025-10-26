@@ -1,2 +1,2 @@
-ent-ClothingMaskBandSecurity = бандана милиции
+ent-ClothingMaskBandSecurity = бандана СГМ
     .desc = Плотная тканевая бандана тёмно-красного цвета, принадлежащая Советской Гражданской Милиции.
