@@ -56,4 +56,4 @@ loadout-group-coroner-backpack = Патологоанатом, рюкзак
 loadout-group-coroner-head = Патологоанатом, голова
 loadout-group-coroner-underwear = Патологоанатом, нижнее бельё
 # Centcomm
-loadout-group-centcomm-officer-underwear = Офицер ЦК, нижнее бельё
+loadout-group-centcomm-officer-underwear = Офицер ГШ, нижнее бельё

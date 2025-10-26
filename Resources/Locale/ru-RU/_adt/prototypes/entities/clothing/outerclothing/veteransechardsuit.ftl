@@ -1,4 +1,4 @@
-ent-ADTVeteranSecHardsuit = скафандр ветерана милиции
+ent-ADTVeteranSecHardsuit = скафандр ветерана СГМ
     .desc = Специальный костюм, защищающий от опасных сред с низким давлением. Имеет дополнительный слой брони.
-ent-ADTVeteranSecHardsuitHelm = шлем скафандра ветерана милиции
+ent-ADTVeteranSecHardsuitHelm = шлем скафандра ветерана СГМ
     .desc = Защитный шлем с новейшим сверхсекретным программным обеспечением USSP-HUD

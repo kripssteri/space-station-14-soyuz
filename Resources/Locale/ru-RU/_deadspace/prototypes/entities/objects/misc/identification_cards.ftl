@@ -1,4 +1,4 @@
-ent-MukhtarIDCard = ID-карта Мухтара
+ent-MukhtarIDCard = ID-карта Мухи
     .desc = { ent-IDCardStandard.desc }
 ent-LargoIDCard = ID-карта Ларго
     .desc = { ent-IDCardStandard.desc }

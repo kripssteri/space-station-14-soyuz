@@ -1,10 +1,10 @@
 department-Cargo = Отдел почты
 department-Civilian = Обслуживающий отдел
-department-Command = Командование
-department-CentralCommand = Генеральный штаб
+department-Command = Станционный совет
+department-CentralCommand = Генеральный Штаб
 department-Engineering = Инженерный отдел
 department-Medical = Медицинский отдел
-department-Security = Милиция
+department-Security = Советская Гражданская Милиция
 department-Science = Научно-исследовательский отдел
 department-Silicon = Синтетики
 department-Specific = На определённых станциях

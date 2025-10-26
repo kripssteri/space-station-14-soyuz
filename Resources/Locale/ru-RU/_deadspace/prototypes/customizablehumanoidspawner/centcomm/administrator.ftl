@@ -1,3 +1,3 @@
-ent-CustomizableSpawnerCentralCommandAdministrator = Администратор ЦК
-    .suffix = АЦК, Кастомизируемый персонаж
+ent-CustomizableSpawnerCentralCommandAdministrator = Администратор ГенШтаба
+    .suffix = АГШ, Кастомизируемый персонаж
     .desc = { ent-CustomizableSpawnerBase.desc }

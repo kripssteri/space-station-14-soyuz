@@ -1,5 +1,5 @@
-ent-MobMukhtar = Мухтар
-    .desc = Верный пёс отдела службы безопасности.
+ent-MobMukhtar = Муха
+    .desc = Верный пёс Советской Гражданской Милиции.
     .suffix = Призрачная роль
-ent-SpawnMobMukhtar = спавнер Мухтар
+ent-SpawnMobMukhtar = спавнер Муха
     .desc = { ent-MarkerBase.desc }

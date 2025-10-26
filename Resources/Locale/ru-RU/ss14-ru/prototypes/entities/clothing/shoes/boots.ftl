@@ -1,7 +1,7 @@
 ent-ClothingShoesBootsWork = рабочие ботинки
     .desc = Инженерные рабочие ботинки на шнуровке, для настоящих работяг.
 ent-ClothingShoesBootsJack = подкованные сапоги
-    .desc = Обувь милиции СССП, для боевых операций или боевых действий. Борьба — всё, борьба — всегда.
+    .desc = Обувь Советской Гражданской Милиции, для боевых операций или боевых действий. Борьба — всё, борьба — всегда.
 ent-ClothingShoesBootsSalvage = ботинки шахтера
     .desc = Специализированные ботинки со стальными носками для работ по утилизации в опасных условиях.
 ent-ClothingShoesBootsPerformer = ботинки артиста
@@ -26,7 +26,7 @@ ent-ClothingShoesBootsWinterMed = медицинские зимние ботин
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterSci = научные зимние ботинки
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
-ent-ClothingShoesBootsWinterSec = зимние ботинки милиции
+ent-ClothingShoesBootsWinterSec = зимние ботинки СГМ
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterSyndicate = зимние ботинки
     .desc = Окрашены в подозрительный болотно-зелёный цвет.

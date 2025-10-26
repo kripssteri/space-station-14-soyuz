@@ -1,3 +1,3 @@
-ent-CustomizableSpawnerCentralCommandOperator = Оператор ЦК
-    .suffix = ОЦК, Кастомизируемый персонаж
+ent-CustomizableSpawnerCentralCommandOperator = Оператор ГенШтаба
+    .suffix = ОГШ, Кастомизируемый персонаж
     .desc = { ent-CustomizableSpawnerBase.desc }
