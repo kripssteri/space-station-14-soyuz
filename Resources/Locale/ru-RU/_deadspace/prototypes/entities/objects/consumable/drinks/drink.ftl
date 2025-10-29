@@ -3,4 +3,4 @@ ent-BluespaceHotGlass = телеголь
 ent-SontseGlass = солнечный смузи
     .desc = Сегодня будет солнечно.
 ent-UplinkDrinkGlass = странный напиток
-    .desc = Ни слова про ОПЗ
+    .desc = Ни слова по русски

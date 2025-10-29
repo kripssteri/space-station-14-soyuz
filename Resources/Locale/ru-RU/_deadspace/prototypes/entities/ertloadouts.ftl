@@ -38,7 +38,7 @@ ert-loadout-category-lecter-description =
     Использует патроны калибра 6.5х39 мм TSF.
 ert-loadout-category-lasercarbine-name = Лазерная винтовка
 ert-loadout-category-lasercarbine-description =
-    Предпочитается СГМ
+    Предпочитается милицией
     за дешевизну и простоту использования.
     Для восполнения боезапаса потребуется зарядник энергооружия.
 ert-loadout-category-lasercannon-name = Лазерная пушка
