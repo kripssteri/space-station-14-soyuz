@@ -1,4 +1,4 @@
-id-card-access-level-command = Станционный Совет
+id-card-access-level-command = Командование
 id-card-access-level-captain = Капитан
 id-card-access-level-head-of-personnel = Начальник отдела кадров
 id-card-access-level-cryogenics = Криогеника
@@ -28,7 +28,7 @@ id-card-access-level-senior-salvage = Мастер шахтёр
 id-card-access-level-bar = Бар
 id-card-access-level-kitchen = Кухня
 id-card-access-level-hydroponics = Агрономия
-id-card-access-level-service = Отдел обслуживания
+id-card-access-level-service = Сервисный отдел
 id-card-access-level-janitor = Уборщик
 id-card-access-level-theatre = Театр
 id-card-access-level-chapel = Церковь

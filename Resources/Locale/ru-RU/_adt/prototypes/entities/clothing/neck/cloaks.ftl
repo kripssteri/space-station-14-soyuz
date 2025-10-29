@@ -11,4 +11,4 @@ ent-ADTClothingNeckGothicCloak = готический плащ
 ent-ADTClothingNeckSyndicateCloak = плащ Рассвета
     .desc = Антагонизируй со стилем!
 ent-ADTClothingNeckNukeOpsCloak = плащ легионеров
-    .desc = Согреет вас холодными вечерами на аванпосте легионеров.
+    .desc = Согреет вас холодными вечерами на аванпосте Легиона.

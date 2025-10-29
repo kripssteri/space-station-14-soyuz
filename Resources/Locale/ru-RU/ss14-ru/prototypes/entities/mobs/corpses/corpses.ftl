@@ -17,5 +17,5 @@ ent-MobRandomSecurityCorpse = { ent-SalvageHumanCorpse }
     .suffix = Мёртвый, Милиция, СГМ
     .desc = { ent-SalvageHumanCorpse.desc }
 ent-MobRandomCommandCorpse = { ent-SalvageHumanCorpse }
-    .suffix = Мёртвый, Командование, СтанцСовет
+    .suffix = Мёртвый, Командование
     .desc = { ent-SalvageHumanCorpse.desc }

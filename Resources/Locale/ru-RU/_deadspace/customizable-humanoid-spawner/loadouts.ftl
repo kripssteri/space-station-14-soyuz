@@ -1,4 +1,4 @@
-spawner-loadout-blueshield = Синий щит ГШ, спавнер
+spawner-loadout-blueshield = Оперативник КГБ (ГШ), спавнер
 spawner-loadout-centcomm-officer = Офицер ГШ, спавнер
 spawner-loadout-centcomm-official = Представитель ГШ, спавнер
 spawner-loadout-centcomm-soo = Генерал Специальных Операций, спавнер

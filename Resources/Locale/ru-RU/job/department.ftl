@@ -1,6 +1,6 @@
 department-Cargo = Отдел почты
-department-Civilian = Обслуживающий отдел
-department-Command = Станционный совет
+department-Civilian = Сервисный отдел
+department-Command = Командование
 department-CentralCommand = Генеральный Штаб
 department-Engineering = Инженерный отдел
 department-Medical = Медицинский отдел

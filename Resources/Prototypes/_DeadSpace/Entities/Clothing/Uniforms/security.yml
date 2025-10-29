@@ -23,7 +23,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitSecPilot
-  name: комбинезон пилота СГМ
+  name: комбинезон пилота милиции
   description: Комбинезон из прочного материала, обеспечивающий надёжную защиту.
   components:
     - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitSecBlack
-  name: чёрный комбинезон СГМ
+  name: чёрный комбинезон милиции
   description: Комбинезон из прочного материала, обеспечивающий надёжную защиту.
   components:
     - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtPencilSec
-  name: женский костюм-карандаш СГМ
+  name: женский костюм-карандаш милиции
   description: Костюм из прочного материала, обеспечивающий надёжную защиту.
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtPencilWarden
   name: женский костюм-карандаш оперативного дежурного
-  description: Костюм-карандаш оперативного дежурного СГМ. НКВБ настоятельно не рекомендует проводить эротические игры с заключёнными.
+  description: Костюм-карандаш оперативного дежурного Советской Гражданской Милиции. НКВБ настоятельно не рекомендует проводить эротические игры с заключёнными.
   components:
   - type: Sprite
     sprite: _DeadSpace/Clothing/Uniforms/Jumpskirt/pencil_warden.rsi

@@ -195,7 +195,7 @@ deadspace-chatsan-replacement-97 = работник почты
 deadspace-chatsan-word-98 = каргонцы
 deadspace-chatsan-replacement-98 = работники почты
 deadspace-chatsan-word-99 = командывание
-deadspace-chatsan-replacement-99 = станционный совет
+deadspace-chatsan-replacement-99 = командование
 # Reagents
 deadspace-chatsan-word-100 = бикардин
 deadspace-chatsan-replacement-100 = бикаридин

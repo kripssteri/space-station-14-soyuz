@@ -8,5 +8,5 @@ cargo-account-science-name = Фонд межзвёздных разработо�
 cargo-account-science-code = НИО
 cargo-account-security-name = Резервы обороны станции
 cargo-account-security-code = СГМ
-cargo-account-service-name = Совместные отдела обслуживания
-cargo-account-service-code = ОБС
+cargo-account-service-name = Сбережения сервисного отдела
+cargo-account-service-code = СРВ
