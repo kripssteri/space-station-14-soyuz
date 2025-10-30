@@ -5,7 +5,7 @@ station-beacon-vault = Хранилище
 station-beacon-gateway = Врата
 station-beacon-captain = Каюта капитана
 station-beacon-hop = Каюта начальника отдела кадров
-station-beacon-security = Участок СГМ
+station-beacon-security = Участок милиции
 station-beacon-brig = Участок
 station-beacon-brig-med = Дежурный врач
 station-beacon-warden = Оперативный дежурный
@@ -17,12 +17,12 @@ station-beacon-courtroom = Зал суда
 # Corvax-Localization-Start
 station-beacon-law = Офис АСК
 # Corvax-Localization-End
-station-beacon-security-checkpoint = КПП СГМ
+station-beacon-security-checkpoint = КПП милиции
 station-beacon-medical = Медицинский отдел
 station-beacon-medbay = Медотсек
 station-beacon-chemistry = Хим. лаборатория
 station-beacon-cryonics = Криокапсулы
-station-beacon-cmo = Кабинет главрача
+station-beacon-cmo = Кабинет главврача
 station-beacon-morgue = Морг
 station-beacon-surgery = Операционная
 station-beacon-psychology = психиатр

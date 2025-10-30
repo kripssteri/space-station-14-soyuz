@@ -18,7 +18,7 @@ device-frequency-prototype-name-mothership = Материнский корабл
 
 device-frequency-prototype-name-surveillance-camera-test = Тест подсети
 device-frequency-prototype-name-surveillance-camera-engineering = Камеры (Инженерный)
-device-frequency-prototype-name-surveillance-camera-security = Камеры (СГМ)
+device-frequency-prototype-name-surveillance-camera-security = Камеры (Мидлиция)
 device-frequency-prototype-name-surveillance-camera-science = Камеры (Научный)
 device-frequency-prototype-name-surveillance-camera-supply = Камеры (Почта)
 device-frequency-prototype-name-surveillance-camera-command = Камеры (Командование)

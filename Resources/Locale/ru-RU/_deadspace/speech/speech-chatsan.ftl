@@ -225,7 +225,7 @@ deadspace-chatsan-replacement-111 = нм
 deadspace-chatsan-word-112 = хоса
 deadspace-chatsan-replacement-112 = нма
 deadspace-chatsan-word-113 = смо
-deadspace-chatsan-replacement-113 = главарач
+deadspace-chatsan-replacement-113 = главврач
 deadspace-chatsan-word-114 = се
 deadspace-chatsan-replacement-114 = си
 deadspace-chatsan-word-115 = рд
@@ -322,7 +322,7 @@ deadspace-chatsan-replacement-158 = начальником отдела кадр
 deadspace-chatsan-word-159 = нока
 deadspace-chatsan-replacement-159 = начальника отдела кадров
 # OOC
-deadspace-chatsan-word-160 = ссд
+deadspace-chatsan-word-160 = афк
 deadspace-chatsan-replacement-160 = крс
 deadspace-chatsan-word-161 = админ
 deadspace-chatsan-replacement-161 = бог

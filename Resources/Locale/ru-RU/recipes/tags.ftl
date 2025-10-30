@@ -20,11 +20,11 @@ construction-graph-tag-black-crayon = чёртый мелок
 construction-graph-tag-eva-suit = ВКД скафандр
 construction-graph-tag-eva-helmet = ВКД шлем
 # hud
-construction-graph-tag-security-hud = визор СГМ
+construction-graph-tag-security-hud = визор милиции
 construction-graph-tag-medical-hud = медицинский визор
 # security
 construction-graph-tag-sun-glasses = солнцезащитные очки
-construction-graph-tag-security-helmet = шлем СГМ
+construction-graph-tag-security-helmet = шлем милиции
 # materials
 construction-graph-tag-manipulator = модульная машинная часть
 construction-graph-tag-voice-trigger = голосовой триггер
