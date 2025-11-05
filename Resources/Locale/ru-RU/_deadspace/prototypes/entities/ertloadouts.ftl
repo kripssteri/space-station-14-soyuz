@@ -23,7 +23,7 @@ ert-loadout-category-wt550-description =
     производства Small Arms Division.
     Для точной стрельбы достаточно одной руки.
     Использует патроны калибра 9х19 мм.
-ert-loadout-category-drozd-name = ОЦ-94 "Гроза"
+ert-loadout-category-drozd-name = ОЦ-14 "Гроза"
 ert-loadout-category-drozd-description =
     Полностью автоматический, двуручный штурмовой пистолет-пулемёт. 
     Использует патроны калибра 9х19 мм.
