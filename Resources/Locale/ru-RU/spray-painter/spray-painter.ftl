@@ -68,6 +68,7 @@ spray-painter-style-airlockstandard-salvage = Шахтёрский
 spray-painter-style-airlockstandard-science = Научный
 spray-painter-style-airlockstandard-security = Милиция
 spray-painter-style-airlockstandard-virology = Вирусология
+spray-painter-style-airlockstandard-lawyer = Юридический
 spray-painter-style-airlockglass-atmospherics = Атмос
 spray-painter-style-airlockglass-basic = Обычный
 spray-painter-style-airlockglass-cargo = Почта
@@ -81,6 +82,7 @@ spray-painter-style-airlockglass-salvage = Шахтёрский
 spray-painter-style-airlockglass-science = Научный
 spray-painter-style-airlockglass-security = Милиция
 spray-painter-style-airlockglass-virology = Вирусология
+spray-painter-style-airlockglass-lawyer = Юридический
 # Lockers
 spray-painter-style-locker-atmospherics = Атмос
 spray-painter-style-locker-basic = Обычный
