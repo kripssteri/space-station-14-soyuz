@@ -17,6 +17,12 @@
   - DebugThruster
   - TableDebug
   - WallDebug
+  - PlasticFlapsAirtightClear
+  - PlasticFlapsAirtightOpaque
+  - CargoPallet
+  - CargoPalletSell
+  - CargoPalletBuy
+  - StationAnchor
 
 - type: repairValueExclusion
   id: RepairExcludeBiologicalAndEventEntities
@@ -180,7 +186,6 @@
   reason: Living botany plants are outside station repair construction.
   entities:
   - AgentgrainPlants
-  - AmbrosiaNobilisPlants
   - AvocadoPlants
   - BarrelmelonPlants
   - BeesPlants
@@ -1053,6 +1058,20 @@
   - FireworkBox
 
 - type: repairValueExclusion
+  id: RepairExcludeIndestructibleStationAnchor
+  reason: Map-only indestructible station anchors cannot be rebuilt.
+  entities:
+  - StationAnchorIndestructible
+
+- type: repairValueExclusion
+  id: RepairExcludeConstructionIntermediates
+  reason: Temporary construction stages are not completed repair structures.
+  entities:
+  - SoyuzDugSoilMound
+  - SoyuzStoneGraveFrame
+  - SoyuzWoodenGraveFrame
+
+- type: repairValueExclusion
   id: RepairExcludeTemporaryAndVirtual
   reason: Temporary effects, portals, holograms and virtual barriers.
   entities:
@@ -1238,6 +1257,13 @@
   reason: Church bells should not be procedurally damaged or included in repair requirements.
   entities:
   - ChurchBell
+
+- type: repairValueExclusion
+  id: RepairExcludeBasicGenerators
+  reason: Basic thermoelectric generators cannot be rebuilt for repair orders.
+  entities:
+  - GeneratorBasic
+  - GeneratorBasic15kW
 
 - type: repairValueExclusion
   id: RepairExcludeScreensAndTimers

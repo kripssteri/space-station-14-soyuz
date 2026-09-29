@@ -1,8 +1,10 @@
+# Мёртвый Космос, Союз-1, Licensed under custom terms with restrictions on public hosting and commercial use, full text: https://raw.githubusercontent.com/dead-space-server/space-station-14-soyuz/master/LICENSES/LICENSE.TXT
+
 - type: entity
   parent: CrateEngineeringSecure
   id: RepairOrderRewardCrate
-  name: repair order reward crate
-  description: A secure engineering crate containing payment for a completed repair order.
+  name: repair order shop crate
+  description: A secure engineering crate containing purchases from the repair order shop.
 
 - type: repairOrder
   id: RepairOrderDamagedEngineeringModule
@@ -16,7 +18,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 - type: repairOrder
   id: RepairOrderDamagedSOBRAmber
   name: repair-order-damaged-amber-name
@@ -29,7 +31,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 - type: repairOrder
   id: RepairOrderDamagedBriggle
   name: repair-order-damaged-briggle-name
@@ -42,7 +44,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 - type: repairOrder
   id: RepairOrderDamagedCargoShuttle
   name: repair-order-damaged-cargo-shuttle-name
@@ -55,7 +57,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: entity
   parent: BaseItem
@@ -131,6 +133,7 @@
       visible: false
       state: generic_panel_open
   - type: RepairOrderConsole
+    shopRewardPool: RepairOrderEngineeringRewardPool
   - type: ActivatableUI
     key: enum.RepairOrderUiKey.Key
   - type: ActivatableUIRequiresAccess
@@ -141,7 +144,7 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: AccessReader
-    access: [["Engineering"]]
+    access: [["Engineering"], ["Atmospherics"], ["ChiefEngineer"]]
   - type: Computer
     board: RepairOrdersComputerCircuitboard
   - type: PointLight
@@ -172,7 +175,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: repairOrder
   id: RepairOrderCaravanLevel2
@@ -186,7 +189,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 
 - type: repairOrder
   id: RepairOrderCaravanLevel3
@@ -200,7 +203,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderLaunchLevel1
@@ -214,7 +217,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: repairOrder
   id: RepairOrderLaunchLevel2
@@ -228,7 +231,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 
 - type: repairOrder
   id: RepairOrderLaunchLevel3
@@ -242,7 +245,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderBlizzardLevel1
@@ -256,7 +259,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: repairOrder
   id: RepairOrderBlizzardLevel2
@@ -270,7 +273,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 
 - type: repairOrder
   id: RepairOrderBlizzardLevel3
@@ -284,7 +287,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderCourierLevel1
@@ -298,7 +301,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: repairOrder
   id: RepairOrderCourierLevel2
@@ -312,7 +315,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 
 - type: repairOrder
   id: RepairOrderCourierLevel3
@@ -326,7 +329,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderNorthLevel1
@@ -340,7 +343,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 30m
+  repairTime: 40m
 
 - type: repairOrder
   id: RepairOrderNorthLevel2
@@ -354,7 +357,7 @@
   damageProfile: RepairDamageLight
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 40m
+  repairTime: 50m
 
 - type: repairOrder
   id: RepairOrderNorthLevel3
@@ -368,7 +371,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderFrontierLevel3
@@ -382,7 +385,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 50m
+  repairTime: 60m
 
 - type: repairOrder
   id: RepairOrderFrontierLevel4
@@ -396,7 +399,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 55m
+  repairTime: 65m
 
 - type: repairOrder
   id: RepairOrderFrontierLevel5
@@ -410,7 +413,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 60m
+  repairTime: 70m
 
 - type: repairOrder
   id: RepairOrderFrontierLevel6
@@ -424,7 +427,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 70m
+  repairTime: 80m
 
 - type: repairOrder
   id: RepairOrderHopeLevel4
@@ -438,7 +441,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 55m
+  repairTime: 65m
 
 - type: repairOrder
   id: RepairOrderHopeLevel5
@@ -452,7 +455,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 60m
+  repairTime: 70m
 
 - type: repairOrder
   id: RepairOrderHopeLevel6
@@ -466,7 +469,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 70m
+  repairTime: 80m
 
 - type: repairOrder
   id: RepairOrderHopeLevel7
@@ -480,7 +483,7 @@
   damageProfile: RepairDamageSevere
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 80m
+  repairTime: 90m
 
 - type: repairOrder
   id: RepairOrderDawnLevel4
@@ -494,7 +497,7 @@
   damageProfile: RepairDamageStandard
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 55m
+  repairTime: 65m
 
 - type: repairOrder
   id: RepairOrderDawnLevel5
@@ -508,7 +511,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 60m
+  repairTime: 70m
 
 - type: repairOrder
   id: RepairOrderDawnLevel6
@@ -522,7 +525,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 70m
+  repairTime: 80m
 
 - type: repairOrder
   id: RepairOrderDawnLevel7
@@ -536,7 +539,7 @@
   damageProfile: RepairDamageSevere
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 80m
+  repairTime: 90m
 
 - type: repairOrder
   id: RepairOrderArkLevel5
@@ -550,7 +553,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 60m
+  repairTime: 70m
 
 - type: repairOrder
   id: RepairOrderArkLevel6
@@ -564,7 +567,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 70m
+  repairTime: 80m
 
 - type: repairOrder
   id: RepairOrderArkLevel7
@@ -578,7 +581,7 @@
   damageProfile: RepairDamageSevere
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 80m
+  repairTime: 90m
 
 - type: repairOrder
   id: RepairOrderArkLevel8
@@ -592,7 +595,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 90m
+  repairTime: 100m
 
 - type: repairOrder
   id: RepairOrderPennantLevel6
@@ -606,7 +609,7 @@
   damageProfile: RepairDamageHeavy
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 70m
+  repairTime: 80m
 
 - type: repairOrder
   id: RepairOrderPennantLevel7
@@ -620,7 +623,7 @@
   damageProfile: RepairDamageSevere
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 80m
+  repairTime: 90m
 
 - type: repairOrder
   id: RepairOrderPennantLevel8
@@ -634,7 +637,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 90m
+  repairTime: 100m
 
 - type: repairOrder
   id: RepairOrderPennantLevel9
@@ -648,7 +651,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 100m
+  repairTime: 110m
 
 - type: repairOrder
   id: RepairOrderBastionLevel8
@@ -662,7 +665,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 90m
+  repairTime: 100m
 
 - type: repairOrder
   id: RepairOrderEclipseLevel8
@@ -676,7 +679,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 90m
+  repairTime: 100m
 
 - type: repairOrder
   id: RepairOrderCorsairLevel9
@@ -690,7 +693,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 100m
+  repairTime: 110m
 
 - type: repairOrder
   id: RepairOrderGraniteLevel9
@@ -704,7 +707,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 100m
+  repairTime: 110m
 
 - type: repairOrder
   id: RepairOrderHephaestusLevel10
@@ -718,7 +721,7 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 110m
+  repairTime: 120m
 
 - type: repairOrder
   id: RepairOrderApogeeLevel10
@@ -732,4 +735,4 @@
   damageProfile: RepairDamageCatastrophic
   scoreProfile: RepairOrderEngineeringScore
   rewardPool: RepairOrderEngineeringRewardPool
-  repairTime: 110m
+  repairTime: 120m
